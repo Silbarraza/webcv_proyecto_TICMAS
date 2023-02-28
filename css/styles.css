@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+#base {
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+}
+
+/* Header */
+.header {
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+}
+
+.logo_header {
+    width: 15%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+/* Seccion introduccion */
+.bg_intro {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.foto_perfil {
+    width: 100%;
+    height: auto;
+}
+
+.title_intro {
+    font-family: 'Lora', serif;
+    font-size: 48px;
+    font-weight:500;
+    color:#f794a4;
+   
+}
+
+.subtitle_intro {
+    font-size:large;
+    font-stretch: expanded;
+    color:#de6e81;
+
+}
+
+.intro_texto {
+    font-size: 18px;
+    font-stretch: expanded;
+}
+
+
+@media (max-width: 768px) {
+     
+    .foto_perfil {
+        width: 115%;
+        height: auto;
+       
+    }    
+}
+
+@media (max-width: 992px) {
+     
+    .foto_perfil {
+        width: 115%;
+        height: auto;
+    }    
+}
+
+@media (max-width: 576px) {
+     
+    .foto_perfil {
+        width: 350%;
+        height: auto;
+    }
+    
+    .title_intro {
+        
+        font-size: 28px;
+    }
+    
+    .subtitle_intro {
+        font-size:14px;
+        font-stretch:normal;
+    }
+    
+    .intro_texto {
+        font-size: 14px;
+        font-stretch:normal;  
+    }
+
+}
+
+
+/* @media (max-width: 576px) {
+    .title_intro {
+        
+        font-size: 32px;
+        color: rebeccapurple;
+        
+       
+    }
+    .subtitle_intro {
+        font-size:medium;
+        
+    
+    }
+    
+    .intro_texto {
+        font-size: 16px;
+    }  
+    
+} */
+
+
+/* Secciones */
+
+.title_seccion {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.bg_seccion {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+/* Sección sobre mi */
+
+#about_me{
+    text-align: justify;
+}
+
+#boton,
+#boton_ocultar,
+#boton_contacto {
+    max-width: 150px;
+    background-color:#de6e81;
+    padding: 4px 8px;
+    border-radius: 6px;
+    border-color:#de6e81;
+    color: #0d0d0e;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+
+#boton:hover,
+#boton_ocultar:hover,
+#boton_contacto:hover {
+    color: black;
+    background-color:#f794a5f0;
+    border-color: #f794a5f0;
+}
+
+/* Seccion Mi trabajo */
+.texto_seccion{
+    text-align: justify;
+}
+
+#boton_contacto a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.texto1_card{
+    font-size: 14px;
+    color: #de6e81;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.texto2_card{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.color_card {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);   
+}
+
+/* Contacto y Formación */
+
+.lista_contacto {
+    line-height: 40px;
+    list-style: none;
+    font-weight: bold;
+    font-size: medium;
+    color: #de6e81;
+}
+
+.lista_contacto li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+}
+
+.separador {
+    width: auto;
+    height: 1px;
+    margin: 24px 0px;
+    background-color: #de6e81;
+    border-color: #de6e81;
+}
+
+.subtitulo_formacion {
+    font-size: medium;
+    font-weight: bold;
+    color:#de6e81;
+    letter-spacing: 1 px;
+}
+
+/* Casos de estudio */
+.subtitulo_seccion {
+    color: #de6e81;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.boton_txt{
+    color: #000000;
+    text-decoration: none;
+}
+
+.boton_txt:hover{
+    color: #f794a4;
+}
+
+/* Contacto */
+
+.icono_rrss {
+    width: 42px;
+    height: 42px;
+}
+
+
+
+/* Footer */
+
+.texto_footer{
+    text-decoration: none;
+    color: #000000;
+}
+
+
