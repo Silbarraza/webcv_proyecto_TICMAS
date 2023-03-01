@@ -55,39 +55,47 @@
 @media (max-width: 768px) {
      
     .foto_perfil {
-        width: 115%;
+        width: 120%;
         height: auto;
        
-    }    
+    }
+
+    .title_intro {
+        font-size: 32px;
+        font-weight:500;       
+    }
+    
+    .subtitle_intro {
+        font-size:16px;
+        font-stretch: normal;    
+    }
+    
+    .intro_texto {
+        font-size: 16px;
+        font-stretch: normal;
+    }
 }
 
-@media (max-width: 992px) {
-     
-    .foto_perfil {
-        width: 115%;
-        height: auto;
-    }    
-}
 
 @media (max-width: 576px) {
      
     .foto_perfil {
-        width: 350%;
+        width: 124%;
         height: auto;
     }
     
     .title_intro {
         
-        font-size: 28px;
+        font-size: 24px;
     }
     
     .subtitle_intro {
-        font-size:14px;
+        font-size:12px;
         font-stretch:normal;
     }
     
     .intro_texto {
-        font-size: 14px;
+        font-size: 12px;
         font-stretch:normal;  
     }
 
