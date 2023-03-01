@@ -20,6 +20,13 @@
     border-radius: 15px;
 }
 
+@media (max-width: 768px) {
+
+    .lista_header ul li a {
+        font-size: 14px;
+    }
+    
+}
 
 /* Seccion introduccion */
 .bg_intro {
@@ -51,6 +58,7 @@
     font-stretch: expanded;
 }
 
+/* Mediaqueries seccion introduccion */
 
 @media (max-width: 768px) {
      
@@ -102,27 +110,6 @@
 }
 
 
-/* @media (max-width: 576px) {
-    .title_intro {
-        
-        font-size: 32px;
-        color: rebeccapurple;
-        
-       
-    }
-    .subtitle_intro {
-        font-size:medium;
-        
-    
-    }
-    
-    .intro_texto {
-        font-size: 16px;
-    }  
-    
-} */
-
-
 /* Secciones */
 
 .title_seccion {
@@ -134,6 +121,8 @@
 .bg_seccion {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
+
+
 
 /* Sección sobre mi */
 
@@ -163,6 +152,14 @@
     border-color: #f794a5f0;
 }
 
+@media (max-width: 768px) {
+
+    #about_me {
+        font-size: 14px;
+    }
+    
+}
+
 /* Seccion Mi trabajo */
 .texto_seccion{
     text-align: justify;
@@ -186,26 +183,32 @@
 }
 
 
-
 .color_card {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);   
 }
 
-/* Contacto y Formación */
+@media (max-width: 768px) {
 
-.lista_contacto {
-    line-height: 40px;
-    list-style: none;
-    font-weight: bold;
-    font-size: medium;
-    color: #de6e81;
+    .texto_seccion{
+        font-size: 14px;
+    }
+
+    .texto1_card{
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+
+    .texto2_card{
+        font-size: 14px;
+    }
+
+    .boton_txt {
+        font-size: 14px;
+    }
+    
 }
 
-.lista_contacto li a{
-    text-decoration: none;
-    color: #000000;
-    font-weight: normal;
-}
+/* Formación - Idioma y Software - Cursos */
 
 .separador {
     width: auto;
@@ -221,6 +224,22 @@
     color:#de6e81;
     letter-spacing: 1 px;
 }
+
+
+@media (max-width: 768px) {
+
+    .subtitulo_formacion {
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 0 px;
+    }
+
+    .texto_formacion{
+        font-size: 14px;
+    }
+    
+}
+
 
 /* Casos de estudio */
 .subtitulo_seccion {
@@ -238,6 +257,15 @@
     color: #f794a4;
 }
 
+@media (max-width: 768px) {
+
+    .subtitulo_seccion {
+        font-size: 15px;
+        letter-spacing: 0 px;
+    }
+
+}
+
 /* Contacto */
 
 .icono_rrss {
@@ -245,13 +273,27 @@
     height: 42px;
 }
 
-
-
 /* Footer */
 
 .texto_footer{
     text-decoration: none;
     color: #000000;
 }
+
+@media (max-width: 768px) {
+
+    .footer ul li a {
+        font-size: 14px;
+    }
+    
+}
+
+@media (max-width: 576px) {
+
+    .footer ul li a {
+        font-size: 10px;
+    }
+}
+
 
 

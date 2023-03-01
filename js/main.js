@@ -48,8 +48,6 @@ boton.addEventListener('click', function(){
 boton_ocultar.addEventListener('click',function(){
     ocultar_elemento(boton_ocultar);
     modificar_parrafo(about_intro)
-    //ocultar_elemento(about_me)
-    //modificar_parrafo(about_me_intro);
     mostrar_elemento(boton)
 })
 
