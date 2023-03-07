@@ -35,8 +35,6 @@
     color:#de6e81;
 }
 
-
-
 @media (max-width: 768px) {
 
     .lista_header ul li a {
@@ -143,7 +141,8 @@
 
 /* Sección sobre mi */
 
-#about_me{
+#about_me,
+#ver_mas{
     text-align: justify;
 }
 
@@ -308,7 +307,7 @@
 @media (max-width: 576px) {
 
     .footer ul li a {
-        font-size: 10px;
+        font-size: 14px;
     }
 }
 
