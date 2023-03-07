@@ -20,6 +20,23 @@
     border-radius: 15px;
 }
 
+.header_submenu {
+    width: 200px;
+}
+
+.header_submenu li a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+
+.header_submenu li a:hover {
+    color:#de6e81;
+}
+
+
+
 @media (max-width: 768px) {
 
     .lista_header ul li a {
